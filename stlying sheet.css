@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(bg.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+.header{
+height: 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo h1{
+    color: rgb(227, 116, 4);;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+   
+}
+
+ .logo h2{
+    padding-top: 5px;
+    padding-left: 23px;
+    color: rgb(227, 116, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+ }
+.navbar ul{
+display: flex;
+list-style-type: none;
+
+}
+
+.navbar a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgb(227, 116, 4);
+    font-style: italic;
+    font-size: larger;
+    flex-wrap: initial;
+    font-weight: 900;
+}
+.main {
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+}
+.about-me{
+    align-items: center                                                                                                                 
+    padding: 50px;
+    padding-top: 150px;
+    margin-left: 10%;
+    width: 30%;
+    justify-self: start;
+    padding: auto;
+    
+    
+    
+}
+.about-me h2{
+    color: crimson;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.about-me p{
+    color: blanchedalmond;
+    font-size: larger;
+
+}
+.skills{
+    justify-content: end;
+    width: 30%;
+    padding-top: 40px;
+    margin: auto;
+    justify-content: flex-end;
+    margin-left: 70%;
+}
+.skills h2{
+    color: crimson;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.skills ul{
+    list-style-type: none;
+}
+.skills li {
+    
+    padding: 10 15px;
+    color: blanchedalmond;
+    font-size: larger;
+}
+.Projects{
+                                                                                                               
+    width: 30%;
+    height: 30%;
+    justify-self: start;
+    margin-left: 150px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Projects h3{
+    color: crimson;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.Projects img{
+    width: 400px;
+    object-position: bottom;
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    position: sticky;
+    bottom: 0px;
+    margin-top: 20px;
+    height: 30px;
+}
+.footer p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
